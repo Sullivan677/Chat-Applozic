@@ -11,7 +11,7 @@ var APNS_TYPE_DEVELOPMENT: Int16 = 0
 var APNS_TYPE_DISTRIBUTION: Int16 = 1
 
 class ALChatManager: NSObject {
-    static let applicationId = "382c2dcb1c60b63293f95a9d2f9d9709d"
+    static let applicationId = "Paste_you_application_id_here"
     static let shared = ALChatManager(applicationKey: ALChatManager.applicationId as NSString)
 
     var pushNotificationTokenData: Data? {
